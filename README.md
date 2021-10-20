@@ -1,1 +1,2 @@
-# bbattle-contest-v2
+# bbattle-contest
+bbattle-contest
