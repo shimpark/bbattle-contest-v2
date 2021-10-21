@@ -4,11 +4,10 @@
 common main element
 ============================================================*/
 .area-tit {
-    /* 1018 label 수정 */
     /* padding-bottom 1차 오픈 */
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
     /* padding-bottom 2차 오픈 */
-    /* padding-bottom: 4rem; */
+    padding-bottom: 4rem;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -62,14 +61,12 @@ key visual
     left: 0;
     width: 100%;
     height: 100%;
-    /* 1018 label 수정 */
     background: url('../images/main-keyvisual-bg2.png') no-repeat center top;
     background-size: cover;
 }
 
-/* 1018 label 수정 추가 */
 /* 2차 오픈 */
-/* .kv-area .kv-tit {
+.kv-area .kv-tit {
     position: relative;
     z-index: 2;
 }
@@ -117,9 +114,7 @@ key visual
 .kv-area .bg-btn:hover,
 .kv-area .bg-btn:hover+.kv-tit.bg .bg-overay-image {
     opacity: 1;
-} */
-
-/* //1018 label 수정 추가 */
+}
 
 @-webkit-keyframes shakeKv {
 
@@ -225,7 +220,6 @@ key visual
         display: none;
     }
 
-    /* 1018 label 수정 추가 */
     .kv-area {
         background: url('../images/main-keyvisual-bg2.png') no-repeat center top;
         background-size: cover;
@@ -241,11 +235,10 @@ promotion video area
 ============================================================*/
 .promovideo-area {
     position: relative;
-    /* 1018 label 수정 */
     /* padding 1차 오픈 */
-    padding: 10.75rem 0 3.5rem;
+    /* padding: 10.75rem 0 3.5rem; */
     /* padding 2차 오픈 */
-    /* padding: 10.75rem 0 6rem; */
+    padding: 10.75rem 0 6rem;
     margin-top: -14.5rem;
     background: url('../images/main-promotion-video-bg2.png') no-repeat center top;
     /* background: url('../images/main-promotion-video-bg.png') no-repeat center top; */
@@ -254,7 +247,6 @@ promotion video area
 }
 
 .promovideo-area .area-tit__img {
-    /* 1018 label 수정 */
     width: 38.05rem;
     /* width: 26rem; */
 }
@@ -267,7 +259,6 @@ promotion video area
 }
 
 .promo-video__insta {
-    /* 1018 label 수정 */
     display: inline-block;
     position: absolute;
     top: -7.75rem;
@@ -279,7 +270,6 @@ promotion video area
     animation: swing 1s infinite alternate ease-in-out;
 }
 
-/* 1018 label 수정 추가 */
 .promovideo-area .promo-text {
     margin: 0 auto;
     max-width: 1030px;
@@ -288,8 +278,6 @@ promotion video area
 .promovideo-area .promo-text .mb {
     display: none;
 }
-
-/* //1018 label 수정 추가 */
 
 @-webkit-keyframes swing {
     0% {
@@ -315,32 +303,27 @@ promotion video area
     }
 }
 
-/* 1018 label 수정 추가 */
 @media (max-width: 768.98px) {
 
     /* 2차 오픈 */
-    /* .promovideo-area {
+    .promovideo-area {
         padding: 7.75rem 0 6rem;
         margin-top: -9.5rem;
-    } */
+    }
 
 }
 
-/* //1018 label 수정 추가 */
-
 @media (max-width: 575.98px) {
     .promovideo-area {
-        /* 1018 label 수정 */
         /* 1차 오픈 */
-        margin-top: -14rem;
-        padding-top: 16rem;
+        /* margin-top: -14rem;
+        padding-top: 16rem; */
         /* 2차 오픈 */
-        /* margin-top: -9rem;
-        padding-top: 12rem; */
+        margin-top: -9rem;
+        padding-top: 12rem;
     }
 
     .promo-video__insta {
-        /* 1018 label 수정 */
         top: -9rem;
     }
 
@@ -352,7 +335,6 @@ promotion video area
         border-width: 4px;
     }
 
-    /* 1018 label 수정 추가 */
     .promovideo-area .promo-text .pc {
         display: none;
     }
@@ -362,55 +344,49 @@ promotion video area
     }
 
     /* 2차 오픈 */
-    /* .promovideo-area {
+    .promovideo-area {
         padding: 8.75rem 0 6rem;
         margin-top: -7.5rem;
-    } */
+    }
 
-    /* //1018 label 수정 추가 */
 }
-
-/* 1018 label 수정 추가 */
 
 @media (max-width: 375.98px) {
 
     /* 1차 오픈 */
-    .promovideo-area {
+    /* .promovideo-area {
         padding-top: 15rem;
-    }
+    } */
 }
 
 @media (max-width: 360.98px) {
     /* 2차 오픈 */
-    /* .promovideo-area {
+    .promovideo-area {
         padding: 9.75rem 0 6rem;
         margin-top: -5.5rem;
-    } */
+    }
 }
 
 @media (max-width: 320.98px) {
 
     /* 1차 오픈 */
-    .promovideo-area {
+    /* .promovideo-area {
         margin-top: -12rem;
-    }
+    } */
 }
 
 @media (max-width: 280.98px) {
 
     /* 1차 오픈 */
-    .promovideo-area {
+    /* .promovideo-area {
         margin-top: -10rem;
-    }
+    } */
 }
-
-/* //1018 label 수정 추가 */
 
 /*============================================================
 work area
 ============================================================*/
 .work-area {
-    /* 1018 label 수정 */
     position: relative;
     padding: 4.75rem 0 7.5rem;
     z-index: 2;
@@ -483,7 +459,6 @@ work area
     border: 1px solid #b4b4b4;
 }
 
-/* 1018 label 수정 추가 */
 .work-area .work-area-tabmenu {
     padding-bottom: 1.5rem;
     display: flex;
@@ -555,8 +530,6 @@ work area
 .work-area .type1 a:before {
     display: none;
 }
-
-/* //1018 label 수정 추가 */
 
 @media (min-width: 992.98px) {
     .work-tit__box {
@@ -641,7 +614,6 @@ work area
     margin: 10rem auto;
     width: 33rem;
     background-color: #ffc40f;
-    /* 1018 label 수정 */
     border-radius: 1rem;
     text-align: center;
 }
@@ -687,7 +659,6 @@ work area
     background: #000;
 }
 
-/* 1018 label 수정 추가 */
 .modal-wrap__work-video .image-layer-wrap {
     position: relative;
     width: 100%;
@@ -701,8 +672,6 @@ work area
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-/* //1018 label 수정 추가 */
 
 @media (max-width: 768.98px) {
     .modal-wrap__work-video {
