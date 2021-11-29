@@ -389,6 +389,10 @@ about area
   border-bottom: 0;
 }
 
+.about-dl .vtal-t {
+  vertical-align: top;
+}
+
 @media (min-width: 992px) {
   .about-applybtn {
     -webkit-transition: transform 0.15s ease, box-shadow 0.15s ease;
@@ -790,13 +794,9 @@ input[type="radio"]:checked+.form-radio__box:before {
   margin-left: 6.5rem;
 }
 
-/* 1021 label 수정 추가 */
 .sound-info-text {
   padding: 2rem 0 0 3.5rem;
 }
-
-/* //1021 label 수정 추가 */
-
 
 @media (max-width: 768.98px) {
   .type2 .form-el__row {
@@ -807,6 +807,7 @@ input[type="radio"]:checked+.form-radio__box:before {
     margin-left: 0rem;
   }
 }
+
 
 @media (max-width: 575.98px) {
   .form-tit__col {
@@ -946,12 +947,10 @@ input[type="radio"]:checked+.form-radio__box:before {
     font-size: 1.3rem;
   }
 
-  /* 1021 label 수정 추가 */
   .sound-info-text {
     padding: 2rem 0 0 0;
   }
 
-  /* //1021 label 수정 추가 */
 }
 
 @media (max-width: 320.98px) {
@@ -1940,6 +1939,10 @@ winner area
 /*============================================================
 subject
 ============================================================*/
+.mb-break {
+  display: none;
+}
+
 .sub-tabmenu.on.subject {
   border: 0;
   background: none;
@@ -1970,7 +1973,7 @@ subject
 .subject-cont-wrap .title-box h4 {
   padding-top: 0.5rem;
   font-size: 2rem;
-  line-height: 1.05;
+  line-height: 1.1;
   font-weight: 300;
 }
 
@@ -2131,6 +2134,10 @@ subject
   .modal-select-info .close-modal-btn:after {
     height: 2rem;
   }
+
+  .mb-break {
+    display: block;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -2149,11 +2156,6 @@ vote-event
 ============================================================*/
 .vote-event .top {
   margin-bottom: 2rem;
-  display: flex;
-}
-
-.vote-event .top h3 {
-  margin-right: 2.75rem;
 }
 
 .vote-event .top p {
@@ -2175,7 +2177,8 @@ vote-event
 
 .vote-event .vote-list li {
   padding: 1rem 0.75rem;
-  width: 33.33%;
+  /* 1129 label 수정 */
+  width: 50%;
   overflow: hidden;
 }
 
@@ -2199,19 +2202,6 @@ vote-event
 }
 
 @media (max-width: 575.98px) {
-  .vote-event .top {
-    flex-direction: column;
-  }
-
-  .vote-event .top h3 {
-    margin: 0;
-    padding-bottom: 2rem;
-  }
-
-  .vote-event .top p {
-    text-align: center;
-  }
-
   .vote-event .vote-list li {
     width: 50%;
   }
